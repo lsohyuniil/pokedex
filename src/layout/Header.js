@@ -17,11 +17,15 @@ function Header ({ selectedTypes, setSelectedTypes }) {
     setIsFilterOpen(false);
   }, [location]);
 
+  const handleLogoClick = () => {
+    setSelectedTypes({});
+  };
+  
   return (
     <>
       <header className="header">
-        <Link to='/'>
-          <img src={`${process.env.PUBLIC_URL}/pokemon_logo.png`} alt="pokemon_logo" />
+      <Link to='/' onClick={handleLogoClick}>
+      <img src={`${process.env.PUBLIC_URL}/pokemon_logo.png`} alt="pokemon_logo" />
         </Link>
         <SearchBar/>
         {showFilterButton && 

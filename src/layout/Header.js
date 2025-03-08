@@ -1,7 +1,6 @@
 import React from 'react'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation } from 'react-router-dom';
-
 import "./Header.css"
 import SearchBar from "../components/SearchBar";
 import FilterButtons from '../components/FilterButtons';
@@ -13,7 +12,11 @@ function Header ({ selectedTypes, setSelectedTypes }) {
   // 필터 버튼 표시 여부
   // const showFilterButton = location.pathname.startsWith('/pokemon');
   const showFilterButton = !['/pokemon', '/search'].some(path => location.pathname.startsWith(path));
-  
+
+  useEffect(() => {
+    setIsFilterOpen(false);
+  }, [location]);
+
   return (
     <>
       <header className="header">

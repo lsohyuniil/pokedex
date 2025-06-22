@@ -15,10 +15,7 @@
 
 ## 🛠️ 프로젝트 기술 스택
 
-<img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
-<img alt="CSS" src="https://img.shields.io/badge/css-663399?style=for-the-badge&logo=css&logoColor=white">
-<img alt="Zustand" src="https://img.shields.io/badge/Zustand-E5771F?style=for-the-badge">
+<img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"><img alt="CSS" src="https://img.shields.io/badge/css-663399?style=for-the-badge&logo=css&logoColor=white"><img alt="Zustand" src="https://img.shields.io/badge/Zustand-E5771F?style=for-the-badge">
 
 <br><br>
 

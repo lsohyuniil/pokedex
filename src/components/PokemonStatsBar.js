@@ -1,4 +1,3 @@
-import React from 'react';
 import "./css/PokemonStatsBar.css"
 
 const calculateStatPercentages = (stats) => {

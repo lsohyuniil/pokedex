@@ -1,4 +1,3 @@
-import React from "react";
 import "../icons/style.css";
 import { typeTranslations, typeIcons } from "../utils/types";
 

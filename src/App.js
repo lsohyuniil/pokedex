@@ -1,28 +1,26 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import { useState } from 'react';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./layout/Header";
 import PokemonDetail from "./pages/PokemonDetail";
 import SearchPage from "./pages/SearchPage";
 import ScrollTopButton from "./components/ScrollTopButton";
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from "./components/ScrollToTop";
+import "./App.css";
 
 function App() {
-  const [selectedTypes, setSelectedTypes] = useState({});
-
-  return ( 
+  return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Header selectedTypes={selectedTypes} setSelectedTypes={setSelectedTypes} />
+      <Header />
       <main>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home selectedTypes={selectedTypes} />} />
+          <Route path="/" element={<Home />} />
           <Route path="/pokemon/:id" element={<PokemonDetail />} />
           <Route path="/search" element={<SearchPage />} />
         </Routes>
         <ScrollTopButton />
       </main>
-    </BrowserRouter> 
+    </BrowserRouter>
   );
 }
 

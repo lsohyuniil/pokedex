@@ -11,19 +11,22 @@ function SearchBar() {
     if (searchText.trim() === "") return;
 
     navigate(`/search?query=${encodeURIComponent(searchText)}`);
+
+    setSearchText("");
   };
 
   return (
     <div className="bar">
       <form onSubmit={handleSearch}>
         <input
+          name="searchText"
           className="search-bar"
           type="text"
           placeholder="포켓몬 이름을 입력해주세요."
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
         />
-        <input className="img-btn" type="submit" value={' '} />
+        <input className="img-btn" type="submit" value={""} />
       </form>
     </div>
   );

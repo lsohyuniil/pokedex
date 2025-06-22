@@ -1,6 +1,6 @@
 # pokedex 
 
-<img src="https://github.com/user-attachments/assets/0b0b2fdd-2b6f-4ee5-898e-380827492876">
+<img src="https://github.com/user-attachments/assets/d6cf09ef-a08d-41af-b4b0-36f79c078299">
 
 ## 📄 프로젝트 소개
 

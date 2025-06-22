@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { persist } from "zustand/middleware";
+import { persist, createJSONStorage } from "zustand/middleware";
 
 const useStore = create(
   persist(
@@ -13,7 +13,10 @@ const useStore = create(
               : updater,
         })),
     }),
-    { name: "pokenon-types" }
+    {
+      name: "pokenon-types",
+      storage: createJSONStorage(() => sessionStorage),
+    }
   )
 );
 

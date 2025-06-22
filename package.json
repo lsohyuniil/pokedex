@@ -43,5 +43,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://lsohyuniil.github.io/pokedex/"
+  "homepage": "https://lsohyuniil.github.io/pokedex/",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }

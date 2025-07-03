@@ -6,7 +6,7 @@
 
 **📆 프로젝트 기간 : 2025.02.26 ~ 2025.03.08**
 <br><br>
-[🔗 pokedex 프로젝트 URL 바로가기](lsohyuniil.github.io/pokedex/)
+[🔗 pokedex 프로젝트 URL 바로가기](https://lsohyuniil.github.io/pokedex/)
 <br><br>
 포켓몬 데이터를 기반으로 사용자가 원하는 포켓몬을 검색하고, 탐색할 수 있는 웹 애플리케이션
 
